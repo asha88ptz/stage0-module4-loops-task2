@@ -2,8 +2,10 @@ package school.mjc.stage0.loops.task2;
 
 public class WordsBuilder {
     public void buildPhrase(char... chars) {
-        for(int i = 0; i < chars.length; i++) {
+        int i = 0;
+        while (i < chars.length) {
             System.out.print(chars[i]);
+            i++;
         }
     }
 }

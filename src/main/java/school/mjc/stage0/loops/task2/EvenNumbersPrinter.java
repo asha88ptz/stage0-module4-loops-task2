@@ -2,8 +2,10 @@ package school.mjc.stage0.loops.task2;
 
 public class EvenNumbersPrinter {
     public void printEvenNumbers(int printTillInclusive) {
-        for (int i = 0; i <= printTillInclusive; i += 2) {
+        int i = 0;
+        while(i <= printTillInclusive) {
             System.out.println(i);
+            i += 2;
         }
     }
 }
